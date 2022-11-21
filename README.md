@@ -1,4 +1,5 @@
 # Lab 8 - Starter
+Name: Isabelle Krochmal  
 1. Answer: 1 Within a Github action that runs whenever code is pushed. I chose this answer because running them manually on your local machine would mean that they are not automated, and running them all after development is completed doesn't seem like the best idea since it would not allow you to test your code during the development process.  
 2. No, you would not use an end to end test to check if a function is returning the correct output. End to end tests should be used to test functionality as users will interact with it. In this case, a unit test would be appropriate.  
 3. No, I would not use a unit test to test the "message" feature of a messaging application. If the "message" feature lets a user write and send a message to another user, there are multiple functions and also multiple accounts involved. This situation involves parts of the software working together, and therefore is too complex for a unit test to be appropriate.  
